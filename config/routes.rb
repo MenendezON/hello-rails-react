@@ -7,6 +7,6 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   root "home#index"
-  get '/random_greeting', to: 'messages#random'
+  get '/message/random_greeting', to: 'messages#random'
 
 end
